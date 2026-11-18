@@ -9,3 +9,5 @@ cloudResources:
   environments:
     ../postman/environments/Production.environment.yaml: 60252775-2fdea492-0f4f-4f76-af16-98e2e7dd728a
     ../postman/environments/Production - Student02.environment.yaml: 60252775-1fc37257-ab26-407c-a50d-30f26305aad8
+  globals:
+    ../postman/globals/workspace.globals.yaml: 6b7cfa0b-60c3-4339-8517-5bcbb881569f

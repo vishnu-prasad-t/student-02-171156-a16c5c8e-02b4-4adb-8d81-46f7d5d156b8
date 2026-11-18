@@ -1,5 +1,4 @@
 $kind: http-request
-description: ""
 url: "{{baseUrl}}/v1/users/:id"
 method: DELETE
 headers:
@@ -7,8 +6,6 @@ headers:
 pathVariables:
   - key: id
     value: "5113"
-    disabled: false
-    description: ""
     $type: |-
       {
         "type": "object",
@@ -24,6 +21,5 @@ pathVariables:
 body:
   type: text
   content: ""
-settings: {}
 examples: ./.resources/Delete a user.resources/examples
 order: 3000

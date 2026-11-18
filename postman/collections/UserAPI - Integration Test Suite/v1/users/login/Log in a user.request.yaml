@@ -1,5 +1,4 @@
 $kind: http-request
-description: ""
 url: "{{baseUrl}}/v1/users/login"
 method: POST
 headers:
@@ -31,6 +30,5 @@ scripts:
           pm.response.to.have.status(200);
       });
     language: text/javascript
-settings: {}
 examples: ./.resources/Log in a user.resources/examples
 order: 1000

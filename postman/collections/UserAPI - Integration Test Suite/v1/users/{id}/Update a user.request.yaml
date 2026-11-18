@@ -1,5 +1,4 @@
 $kind: http-request
-description: ""
 url: "{{baseUrl}}/v1/users/:id"
 method: PUT
 headers:
@@ -8,8 +7,6 @@ headers:
 pathVariables:
   - key: id
     value: "5113"
-    disabled: false
-    description: ""
     $type: |-
       {
         "type": "object",
@@ -41,6 +38,5 @@ body:
         }
       }
     }
-settings: {}
 examples: ./.resources/Update a user.resources/examples
 order: 2000
